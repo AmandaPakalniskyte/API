@@ -7,18 +7,18 @@ const app = express()
 
 const newspapers = [
     {
-        name:"Guardian",
+        name:"guardian",
         address:"https://www.theguardian.com/uk/culture",
         base: "",
         imageUrl:""
     },
     {
-        name:"Independent",
+        name:"independent",
         address:"https://www.independent.co.uk/topic/movies",
         base: ""
     },
     {
-        name:"CNN",
+        name:"cnn",
         address:"https://edition.cnn.com/entertainment/movies",
         base: "https://edition.cnn.com"
     }
